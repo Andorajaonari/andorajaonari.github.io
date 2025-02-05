@@ -3,54 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Besely Astronomical Observatory</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file for styling -->
+    <title>Andoniaina Rajaonarivelo - Dark Sky Preservation & Astronomy Education</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Amateur Astronomical Observatory</h1>
-        <nav>
-            <ul>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Andoniaina Rajaonarivelo</div>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#outreach">Outreach</a></li>
+                <li><a href="#training">Training</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+            <button class="mobile-menu" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
 
-    <section id="home">
-        <h2>Welcome to Our Observatory</h2>
-        <p>Discover the wonders of the night sky with our amateur astronomical observatory.</p>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Promoting Dark Sky Preservation and Astronomy Education</h2>
+            <p>Dedicated researcher and educator working at the intersection of astronomy, dark sky preservation, and public outreach.</p>
+        </div>
     </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Learn more about our observatory and our mission to promote astronomy among amateur astronomers.</p>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="andoniaina.jpg" alt="Andoniaina Rajaonarivelo" loading="lazy">
+                </div>
+                <div class="about-text">
+                    <p align="justify">I'm Andoniaina Rajaonarivelo, an educator and researcher passionate about astronomy, science education, and environmental sustainability. With a Master’s degree in Education specializing in Physics and Chemistry, my work focuses on leveraging astronomy as a powerful tool for learning and community engagement.<br>
+
+                    <br>My current research explores key topics such as light pollution, biodiversity, cultural astronomy, and the development of sustainable astrotourism in Madagascar. I also lead initiatives that promote astronomy education and citizen science, engaging people of all ages to connect with the wonders of the night sky.<br>
+
+                    <br>As the director of the Observatoire Astronomique Ecoles du Monde, Madagascar’s first robotic observatory, I oversee projects that blend scientific research, outreach, and eco-tourism. I am also the founder of Lemurs' Sky, an initiative that highlights the deep connection between Madagascar's unique biodiversity and its pristine night skies, advocating for their protection and valorization.<br>
+
+                    <br>Through collaborations with local communities, schools, and international researchers, I strive to inspire new perspectives on the universe while contributing to science-based sustainable development.
+
+                    </p>
+                    <!-- <a href="path/to/cv.pdf" class="btn" target="_blank" rel="noopener noreferrer">Download CV</a> -->
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="events">
-        <h2>Upcoming Events</h2>
-        <ul>
-            <li><strong>Stargazing Night</strong> - Date: MM/DD/YYYY</li>
-            <li><strong>Lunar Eclipse Viewing</strong> - Date: MM/DD/YYYY</li>
-            <!-- Add more events here -->
-        </ul>
+    <section id="research" class="research">
+        <div class="container">
+            <h2>Research</h2>
+            <div class="research-grid">
+                <!-- Research cards will be populated by JavaScript -->
+            </div>
+        </div>
     </section>
 
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <!-- Add images and descriptions of celestial objects and observatory events here -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2>Publications</h2>
+            <ul class="publications-list">
+                <li class="publication-item">
+                    <span class="publication-year">2024</span>
+                    <div class="publication-content">
+                        <h3>Publication Title 1</h3>
+                        <p>Authors, Journal Name, Volume(Issue), Pages</p>
+                        <a href="#" class="publication-link" target="_blank" rel="noopener noreferrer">Read Paper</a>
+                    </div>
+                </li>
+                <li class="publication-item">
+                    <span class="publication-year">2023</span>
+                    <div class="publication-content">
+                        <h3>Publication Title 2</h3>
+                        <p>Authors, Journal Name, Volume(Issue), Pages</p>
+                        <a href="#" class="publication-link" target="_blank" rel="noopener noreferrer">Read Paper</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or would like to get in touch, please email us at <a href="mailto:contact@yourobservatory.com">contact@yourobservatory.com</a>.</p>
+
+    <section id="training" class="training">
+        <div class="container">
+            <h2>Teaching</h2>
+            <div class="training-grid">
+                <div class="training-card">
+                    <h3>Course Title 1</h3>
+                    <p>Brief description of the course content and objectives.</p>
+                    <ul class="course-details">
+                        <li>Level: Undergraduate</li>
+                        <li>Duration: One Semester</li>
+                        <li>Year: 2024</li>
+                    </ul>
+                    <a href="#" class="course-link" target="_blank" rel="noopener noreferrer">Access Course</a>
+                </div>
+                <div class="training-card">
+                    <h3>Course Title 2</h3>
+                    <p>Brief description of the course content and objectives.</p>
+                    <ul class="course-details">
+                        <li>Level: Graduate</li>
+                        <li>Duration: One Semester</li>
+                        <li>Year: 2023</li>
+                    </ul>
+                    <a href="#" class="course-link" target="_blank" rel="noopener noreferrer">Access Course</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2023 Amateur Astronomical Observatory</p>
-    </footer>
+    <section id="outreach" class="outreach">
+        <div class="container">
+            <h2>Outreach & Engagement</h2>
+            <div class="outreach-content">
+                <ul class="outreach-list">
+                    <!-- Will be populated by JavaScript -->
+                </ul>
+                <div class="outreach-image">
+                    <img id="outreachImage" src="path/to/default-image.webp" alt="Outreach activity">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Andoniaina Rajaonarivelo</h3>
+                    <p></p>
+                    <a href="mailto:andoniainaastro@gmail.com" class="email-link">
+                        andoniaina@haikintana.org
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://bsky.app/profile/andoniaina.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="BlueSky">
+                        <i class="fa-solid fa-cloud"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/andoniaina-rajaonarivelo/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Andorajaonari" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
