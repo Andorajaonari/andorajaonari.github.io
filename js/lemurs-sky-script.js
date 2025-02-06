@@ -143,3 +143,44 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 }); 
+
+// Hamburger Menu functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const navWrapper = document.querySelector('.nav-wrapper');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    // Toggle menu
+    hamburger.addEventListener('click', function() {
+        hamburger.classList.toggle('active');
+        navWrapper.classList.toggle('active');
+        document.body.classList.toggle('no-scroll');
+    });
+
+    // Close menu when clicking nav links
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navWrapper.classList.remove('active');
+            document.body.classList.remove('no-scroll');
+        });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!event.target.closest('.nav-content') && navWrapper.classList.contains('active')) {
+            hamburger.classList.remove('active');
+            navWrapper.classList.remove('active');
+            document.body.classList.remove('no-scroll');
+        }
+    });
+});
+
+// Add this to your existing CSS
+document.head.insertAdjacentHTML('beforeend', `
+    <style>
+        .no-scroll {
+            overflow: hidden;
+        }
+    </style>
+`);
