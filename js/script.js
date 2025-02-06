@@ -56,31 +56,31 @@ const websiteData = {
             title: "Cultural Astronomy in Madagascar",
             description: "Exploring traditional Malagasy knowledge and stories about the night sky.",
             findings: "Malagasy communities possess rich but under-documented celestial traditions that can enhance educational and tourism experiences.",
-            link: "#"
+            link: "pages/under-construction.html"
         },
         {
             title: "Light Pollution and Dark Sky Preservation",
             description: "Assessing the extent of light pollution in Madagascar and its impact on dark skies.",
             findings: "Madagascar has relatively low light pollution, but poorly managed urban lighting poses a growing threat.",
-            link: "#"
+            link: "pages/under-construction.html"
         },
         {
             title: "Sustainable Astrotourism Development",
             description: "Evaluating Madagascar's potential for sustainable astronomy-based tourism.",
             findings: "Regions like Nosy Be and Isalo show strong potential for astrotourism, requiring dark sky preservation and community engagement.",
-            link: "#"
+            link: "pages/under-construction.html"
         },
         {
             title: "Biodiversity and the Night Sky",
             description: "Investigating the effects of artificial lighting on nocturnal biodiversity.",
             findings: "Light pollution disrupts the behavior of nocturnal species, highlighting the ecological need to maintain dark skies.",
-            link: "#"
+            link: "pages/under-construction.html"
         },
         {
             title: "Astronomy Education and Citizen Science",
             description: "Promoting astronomy education and public engagement through citizen science initiatives.",
             findings: "Citizen science projects and educational programs can foster public interest in astronomy while contributing valuable data for research.",
-            link: "#"
+            link: "pages/under-construction.html"
         }
     ],
     
@@ -133,7 +133,7 @@ const websiteData = {
             level: "Undergraduate",
             duration: "One Semester",
             year: "2025",
-            link: "#"
+            link: "pages/under-construction.html"
         },
         {
             title: "Observational Astronomy with Ecole du Monde Observatory",
@@ -141,7 +141,7 @@ const websiteData = {
             level: "Graduate",
             duration: "One Month",
             year: "2025",
-            link: "#"
+            link: "pages/under-construction.html"
         },
         {
             title: "Teacher Training Program",
@@ -149,7 +149,7 @@ const websiteData = {
             level: "Professional Training",
             duration: "3 Days",
             year: "2023",
-            link: "#"
+            link: "pages/under-construction.html"
         }
     ]
 };
@@ -162,7 +162,7 @@ function populateResearch() {
             <h3>${project.title}</h3>
             <p>${project.description}</p>
             <p><strong>Key Findings:</strong> ${project.findings}</p>
-            <a href="${project.link}" class="research-link" target="_blank" rel="noopener noreferrer">Learn More</a>
+            <a href="${project.link}" class="research-link">Learn More</a>
         </div>
     `).join('');
 }
@@ -229,7 +229,7 @@ function populateTeaching() {
                 <li>Duration: ${course.duration}</li>
                 <li>Year: ${course.year}</li>
             </ul>
-            <a href="${course.link}" class="course-link" target="_blank" rel="noopener noreferrer">Access Course</a>
+            <a href="${course.link}" class="course-link">Access Course</a>
         </div>
     `).join('');
 }
