@@ -110,19 +110,19 @@ const websiteData = {
             title: "Haikintana Madagascar",
             description: "For the past 9 years, including 5 years as President and 2 years as Vice President of the association. I have organized educational and outreach activities such as public observations, school visits, and international celebrations (World Space Week, Asteroid Day, etc.), as well as the organization of national events: the Astronomy Festival: Majunga under the Stars, Astromania, KSP Challenge, etc.",
             date: "2016-2025",
-            image: "https://scontent.ftnr4-2.fna.fbcdn.net/v/t39.30808-6/448699900_1029635608729489_2977100401728985906_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEJyoyndrZDBVSjEnxGFcE9mse0-qbWvYmax7T6pta9iZ_dHHjtEbWx6rjNAnPvYYUS900IBQHw9MCetAievJhh&_nc_ohc=hbpb4V9LQ5YQ7kNvgFBJscj&_nc_zt=23&_nc_ht=scontent.ftnr4-2.fna&_nc_gid=AZoUDY6D7A0gWdcm0mn_pZh&oh=00_AYCkfJ7ga32JRW_WYNGthMjn3Zgr4oGh-M_MaFsvgjnxhQ&oe=67A99446"
+            image: "./assets/images/outreach/hk.jpg"
         },
         {
             title: "SheMatters ‑ Kanty Astronomy Research Group",
             description: "Contribution to an astronomical outreach initiative aimed at introducing young girls and women in the disadvantaged communities of Akany Avoko to this science with the Kanty Astronomy Research Group",
             date: "2024",
-            image: "https://scontent.ftnr4-2.fna.fbcdn.net/v/t39.30808-6/470182555_122203640570184000_7212672931523124403_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH5YPw38MoLydfBK04VbRwnkPKR-ge4Np6Q8pH6B7g2nt4uf8_hyiu06wH1kwcJ6ordxrLnBnIXScDWBRcf9gZF&_nc_ohc=PU2hTaCLEXcQ7kNvgFlwvmF&_nc_zt=23&_nc_ht=scontent.ftnr4-2.fna&_nc_gid=AzWRkrsDnHcmMKod9BfQ36P&oh=00_AYBKBsaMxn8_sYYOSF4FyMa8AEEvmLdD6AQx7151RRCtvQ&oe=67A99FE2"
+            image: "./assets/images/outreach/sm.jpg"
         },
         {
             title: "Office of Astronomy Education (OAE) ‑ International Astronomical Union (IAU)",
             description: "Serve as a National Astronomy for Education Coordinator for Madagascar and work on the coordination of national astronomy education initiatives, including teacher training programs for which I was a trainer, funded by the OAE.",
             date: "2020-2024",
-            image: "https://scontent.ftnr4-2.fna.fbcdn.net/v/t39.30808-6/430696125_122100124850234011_3038993440743320261_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFUi6mV1W3swu1MibWw2rI-hrmFxSyKwMOGuYXFLIrAw1M-npTIKZOXFAASp34MrNpq9rjJus5foagpLnmqlh_U&_nc_ohc=SnTN7hZF4VUQ7kNvgFkiLRc&_nc_zt=23&_nc_ht=scontent.ftnr4-2.fna&_nc_gid=AG-Vx1pkcJ70o0N3k9HCDT3&oh=00_AYCIKfhmzlMKAsYskMTC7sq2a9WS9BYIZi_2EjrGVvZbzw&oe=67A98489"
+            image: "./assets/images/outreach/naec.jpg"
         }
     ],
     
