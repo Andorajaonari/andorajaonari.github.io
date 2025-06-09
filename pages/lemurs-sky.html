@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lemurs' Sky - Services de consultation en astronomie pour le développement durable à Madagascar">
-    <title>Lemurs' Sky</title>
-<!--    <link rel="stylesheet" href="../css/styles.css"> -->
+    <meta name="description" content="Lemurs' Sky - Services d'astrotourisme durable à Madagascar">
+    <title>Lemurs' Sky - Astrotourisme à Madagascar</title>
     <link rel="stylesheet" href="../css/lemurs-sky-styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -17,7 +17,6 @@
                 <a href="#" class="logo">
                     <span class="logo-text"><span class="yellow">Lemurs' </span><span class="white">Sky</span></span>
                 </a>
-                                <!-- Add hamburger button -->
                 <button class="hamburger" aria-label="Menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -27,157 +26,271 @@
                 <div class="nav-wrapper">
                     <ul class="nav-links">
                         <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#why-us">Pourquoi Nous</a></li>
-                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#observation">Soirées</a></li>
+                        <li><a href="#impact">Impact</a></li>
+                        <li><a href="#invest">Investir</a></li>
+                        <li><a href="#blog">Blog</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <!---
-                <button class="mobile-menu" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                -->
             </div>
         </nav>
     </header>
 
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Lemurs' Sky : Astronomie pour le développement durable</h2> <br>
-            <p>Bienvenue dans le monde fascinant de l'astronomie au service du développement durable. Lemurs' Sky tire son nom de l'un des animaux emblèmatiques de Madagascar, et du ciel étoilé qui unit les cultures et la curiosité scientifique.</p> <br>
-            <p>Notre mission est de transformer le ciel nocturne unique de Madagascar en une ressource éducative, scientifique et touristique bénéfique pour les communautés locales et les entreprises.</p>
-            <br>
-            <a href="#services" class="cta-btn">En savoir plus</a>
+        <div class="hero-content" data-aos="fade-up">
+            <h1 style="font-size: 2.5rem;">Lemurs' Sky
+             <br>Rediscover the night under Madagascar's stars.</h1>
+            <p>Madagascar possède l'un des ciels nocturnes les plus purs au monde. Lemurs Sky vous invite à vivre la nuit autrement, entre immersion scientifique, patrimoine céleste et engagement durable.</p>
+            <div class="cta-buttons">
+                <a href="#services" class="cta-btn primary">Découvrir nos offres</a>
+                <a href="#observation" class="cta-btn secondary">Réserver une soirée</a>
+                <a href="#invest" class="cta-btn tertiary">Devenir partenaire</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">À propos</h2>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Notre histoire</h3>
+                    <p>Lemurs Sky est née de la rencontre entre la passion de l'astronomie, l'amour du ciel malgache et la volonté d'agir pour un tourisme responsable. L'entreprise est portée par une équipe malgache engagée dans la transmission scientifique et la préservation du patrimoine nocturne.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Vision & Mission</h3>
+                    <p><strong>Vision :</strong> Faire de Madagascar une référence mondiale en astrotourisme durable.<br>
+                    <strong>Mission :</strong> Valoriser le ciel nocturne à travers des prestations de qualité, des formations, des événements culturels et scientifiques, et des actions de sensibilisation.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Pourquoi Madagascar ?</h3>
+                    <ul>
+                        <li>Ciel exceptionnellement pur, zones sans pollution lumineuse</li>
+                        <li>Biodiversité et culture uniques au monde</li>
+                        <li>Constellations de l'hémisphère sud visibles toute l'année</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="services" class="services">
         <div class="container">
-            <h2>Nos Services</h2>
+            <h2 data-aos="fade-up">Nos Services</h2>
             <div class="services-grid">
-                <div class="service-card">
-                    <i class="fas fa-star"></i>
-                    <h3>Organisation d'Activités d'Observation Astronomique</h3>
-                    <p>Offrez à vos clients une expérience inoubliable sous le ciel étoilé.</p>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Consultance & accompagnement</h3>
                     <ul>
-                        <li>Sessions d'observation nocturne avec télescopes</li>
-                        <li>Explication des constellations et événements astronomiques</li>
-                        <li>Histoires culturelles et mythologiques du ciel malgache</li>
+                        <li>Conseils de base pour limiter la pollution lumineuse</li>
+                        <li>Aménagement de zones d'observation</li>
+                        <li>Orientation vers des initiatives de préservation du ciel</li>
                     </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="cta-btn secondary">Découvrir</a>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <h3>Formation des Guides et du Personnel Local</h3>
-                    <p>Renforcez les compétences de votre équipe.</p>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Formations</h3>
                     <ul>
-                        <li>Formation à l'utilisation d'équipements astronomiques</li>
-                        <li>Cours d'identification des étoiles</li>
-                        <li>Modules adaptés aux besoins spécifiques</li>
+                        <li>Formation Guide Astro-Malagasy</li>
+                        <li>Initiation à l'astronomie</li>
+                        <li>Intégration de récits culturels</li>
                     </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="cta-btn secondary">Découvrir</a>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-tools"></i>
-                    <h3>Installation d'Équipements Astronomiques</h3>
-                    <p>Ajoutez une nouvelle dimension à votre infrastructure.</p>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Expériences astronomiques</h3>
                     <ul>
-                        <li>Conseil en achat de télescopes</li>
-                        <li>Création d'espaces d'observation</li>
-                        <li>Installation et maintenance</li>
+                        <li>Soirées d'observation guidées</li>
+                        <li>Séances de découverte pour les écoles ou groupes</li>
+                        <li>Activités de vulgarisation adaptées à différents publics</li>
                     </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="cta-btn secondary">Découvrir</a>
+                    </div>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
                     <i class="fas fa-route"></i>
-                    <h3>Conception de Packages Astro-Touristiques</h3>
-                    <p>Créez des offres personnalisées.</p>
+                    <h3>Astrotourisme sur mesure</h3>
                     <ul>
-                        <li>Circuits combinant observation et découvertes locales</li>
-                        <li>Expériences uniques sous les étoiles</li>
-                        <li>Programmes sur mesure</li>
+                        <li>Création de packages pour agences</li>
+                        <li>Prestations B2B</li>
+                        <li>Intégration dans des circuits nature et écoresponsables</li>
                     </ul>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-calendar"></i>
-                    <h3>Organisation d'Événements Spéciaux</h3>
-                    <p>Offrez des moments inoubliables.</p>
-                    <ul>
-                        <li>Planification d'événements astronomiques</li>
-                        <li>Conférences et ateliers</li>
-                        <li>Événements sur mesure</li>
-                    </ul>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-moon"></i>
-                    <h3>Préservation de l'Environnement Nocturne</h3>
-                    <p>Protégez le ciel étoilé.</p>
-                    <ul>
-                        <li>Audit de pollution lumineuse</li>
-                        <li>Conseils en éclairage écologique</li>
-                        <li>Sensibilisation environnementale</li>
-                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="cta-btn secondary">Découvrir</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="why-us" class="why-us">
+    <section id="observation" class="observation">
         <div class="container">
-            <h2>Pourquoi Nous Choisir</h2>
-            <div class="frame-list">
-                <div class="frame-item" data-index="01">
-                    <div class="frame-content">
-                        <i class="fas fa-certificate"></i>
-                        <h3>Expertise et Professionnalisme</h3>
-                        <p>Des compétences solides en astronomie, éducation et gestion de projet pour répondre à vos besoins spécifiques.</p>
+            <h2 data-aos="fade-up">Soirées d'observation astronomique</h2>
+            <div class="packs-grid">
+                <div class="pack-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Voyage au cœur des étoiles</h3>
+                    <p class="duration">2h – jusqu'à 20 pers.</p>
+                    <ul>
+                        <li>Lecture du ciel au pointeur laser</li>
+                        <li>Observation de constellations, nébuleuses, amas, galaxies selon la saison</li>
+                        <li>Atelier interactif : les participants choisissent leurs cibles préférées</li>
+                        <li>Révision des constellations avec supports visuels</li>
+                        <li>Photo souvenir de groupe sous les étoiles (si conditions favorables)</li>
+                    </ul>
+                    <p class="price">Les prix seront bientôt disponibles</p>
+                    <div class="pack-cta">
+                        <a href="#contact" class="cta-btn">Réserver</a>
                     </div>
                 </div>
-                <div class="frame-item" data-index="02">
-                    <div class="frame-content">
-                        <i class="fas fa-puzzle-piece"></i>
-                        <h3>Solutions Sur Mesure</h3>
-                        <p>Chaque projet est unique. Nous adaptons nos services à vos objectifs.</p>
+                <div class="pack-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Les secrets de la Lune</h3>
+                    <p class="duration">2h – jusqu'à 15 pers.</p>
+                    <ul>
+                        <li>Observation détaillée de la Lune : cratères, mers, montagnes</li>
+                        <li>Lecture du ciel simplifiée avec planisphère</li>
+                        <li>Observation complémentaire : planètes, étoiles brillantes</li>
+                        <li>Initiation à la photographie lunaire au smartphone</li>
+                    </ul>
+                    <p class="price">Les prix seront bientôt disponibles</p>
+                    <div class="pack-cta">
+                        <a href="#contact" class="cta-btn">Réserver</a>
                     </div>
                 </div>
-                <div class="frame-item" data-index="03">
-                    <div class="frame-content">
+                <div class="pack-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Exploration complète du ciel</h3>
+                    <p class="duration">3h30 à 4h – 15 à 30 pers.</p>
+                    <ul>
+                        <li>Présentation complète des instruments</li>
+                        <li>Lecture du ciel + constellations</li>
+                        <li>Observation de la Lune + objets du ciel profond</li>
+                        <li>Atelier planisphère + orientation</li>
+                        <li>Astrophoto + souvenirs (photos du ciel ou des participants)</li>
+                        <li>Pause boisson chaude</li>
+                        <li>Projection récapitulative / discussion en fin de soirée</li>
+                    </ul>
+                    <p class="price">Les prix seront bientôt disponibles</p>
+                    <div class="pack-cta">
+                        <a href="#contact" class="cta-btn">Réserver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="important-notes" style="margin-top: 2rem; padding: 1.5rem; background: rgba(31, 41, 55, 0.5); border-radius: var(--border-radius); border: 1px solid rgba(255, 255, 255, 0.1);">
+                <h3 style="color: var(--color-accent); margin-bottom: 1rem; font-size: 1.2rem;">Remarques importantes</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem;">
+                    <div>
+                        <p style="margin-bottom: 0.5rem; font-weight: 300; color: var(--color-accent);">Formule privative :</p>
+                        <ul style="list-style-type: disc; margin-left: 1rem;">
+                            <li>Événement personnalisé pour groupes (hôtels, écoles ou entreprises)</li>
+                            <li>Sur mesure selon vos besoins</li>
+                            <li>Tarifs sur devis</li>
+                        </ul>
+                        <div style="margin-top: 1rem;">
+                            <div class="pack-cta">
+                                <a href="#contact" class="cta-btn" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Demander un devis</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 0.5rem; font-weight: 300; color: var(--color-accent);">Conditions météorologiques :</p>
+                        <p>Si le ciel est couvert durant toute la durée de la soirée, l'expérience sera annulée ou reportée. En cas d'annulation, un remboursement sera effectué hors frais de transport éventuels.</p>
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 0.5rem; font-weight: 300; color: var(--color-accent);">Frais de transport :</p>
+                        <p>Les frais de transport sont inclus pour les zones proches d'Antananarivo. Pour les interventions en dehors de cette zone, un forfait kilométrique ou devis spécifique sera proposé en fonction de la distance et des conditions d'accès.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact" class="impact">
+        <div class="container">
+            <h2 data-aos="fade-up">Engagement</h2>
+            <div class="impact-grid">
+                <div class="impact-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Opportunités économiques</h3>
+                    <p>Création d'emplois durables en zones rurales et urbaines</p>
+                </div>
+                <div class="impact-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Éducation scientifique</h3>
+                    <p>Formation des guides et développement des compétences scientifiques</p>
+                </div>
+                <div class="impact-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Protection du ciel</h3>
+                    <p>Lutte contre la pollution lumineuse et éclairage responsable</p>
+                </div>
+                <div class="impact-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Patrimoine</h3>
+                    <p><br>Valorisation des traditions et légendes malagasy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 data-aos="fade-up">Blog & Actualités</h2>
+            <div class="blog-content" data-aos="fade-up">
+                <p>Découvrez prochainement nos actualités et événements célestes</p>
+                <ul>
+                    <li>
+                        <i class="fas fa-meteor"></i>
+                        <h3>Actualités célestes</h3>
+                        <p>Éclipses, pluies d'étoiles et phénomènes astronomiques</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-book-open"></i>
+                        <h3>Témoignages</h3>
+                        <p>Récits de guides formés et expériences de terrain</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-newspaper"></i>
+                        <h3>Projets</h3>
+                        <p>Nouvelles des événements & projets Lemurs Sky</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="invest" class="invest">
+        <div class="container">
+            <h2 data-aos="fade-up">Nous soutenir</h2>
+            <div class="invest-content" data-aos="fade-up">
+                <p>Rejoignez notre mission pour un astrotourisme durable à Madagascar</p>
+                <ul>
+                    <li>
                         <i class="fas fa-leaf"></i>
-                        <h3>Impact Durable</h3>
-                        <p>Contribuez à la promotion du patrimoine naturel et culturel de Madagascar tout en stimulant l'économie locale.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="clients" class="clients">
-        <div class="container">
-            <h2>Nos Clients Cibles</h2>
-            <div class="frame-list">
-                <div class="frame-item" data-index="01">
-                    <div class="frame-content">
-                        <i class="fas fa-hotel"></i>
-                        <h3>Hôtels et Resorts</h3>
-                    </div>
-                </div>
-                <div class="frame-item" data-index="02">
-                    <div class="frame-content">
-                        <i class="fas fa-plane"></i>
-                        <h3>Agences de Voyage</h3>
-                    </div>
-                </div>
-                <div class="frame-item" data-index="03">
-                    <div class="frame-content">
-                        <i class="fas fa-users"></i>
-                        <h3>Communautés Locales</h3>
-                    </div>
-                </div>
-                <div class="frame-item" data-index="04">
-                    <div class="frame-content">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h3>Institutions Éducatives</h3>
-                    </div>
+                        <h3>Tourisme durable</h3>
+                        <p>Soutenez un tourisme scientifique et culturel responsable</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-binoculars"></i>
+                        <h3>Équipement</h3>
+                        <p>Financer du matériel d'observation et des formations</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-globe-americas"></i>
+                        <h3>Innovation sociale</h3>
+                        <p>Créer un modèle à l'échelle locale et internationale</p>
+                    </li>
+                </ul>
+                <div class="invest-cta">
+                    <a href="mailto:lemurssky@gmail.com" class="cta-btn secondary">Contact direct</a>
                 </div>
             </div>
         </div>
@@ -185,29 +298,16 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Contactez-Nous</h2>
-            <div class="contact-content">
-                <div class="contact-info">
+            <h2 data-aos="fade-up">Contact & réservation</h2>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-up">
                     <h3>Informations de Contact</h3>
-                    <p><i class="fas fa-envelope"></i> andoniaina@haikintana.org</p>
-                    <p><i class="fas fa-phone"></i> +261 34 777 3030</p>
-                    <p><i class="fas fa-globe"></i> <a href="https://andorajaonari.github.io"> Andoniaina Rajaonarivelo </p>
-                </div>
-                <div class="social-media">
-                    <h3>Suivez-nous sur nos réseaux sociaux</h3>
-                    <div class="social-buttons">
-                        <a href="#" class="social-btn linkedin" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-linkedin"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                        <a href="#" class="social-btn facebook" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-facebook"></i>
-                            <span>Facebook</span>
-                        </a>
-                        <a href="#" class="social-btn instagram" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-instagram"></i>
-                            <span>Instagram</span>
-                        </a>
+                    <p><i class="fas fa-envelope"></i> lemurssky@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Antananarivo, Madagascar </p>
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/lemurssky" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/lemurssky/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <!--<a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>-->
                     </div>
                 </div>
             </div>
@@ -216,12 +316,18 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="copyright" style="text-align: center;">
-                <p>&copy; 2025 Andoniaina Rajaonarivelo. Tous droits réservés.</p>
+            <div class="footer-content">
+                <div class="footer-links" style="display: flex; justify-content: center; gap: 2rem;">
+
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Lemurs Sky. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
 
-    <script src="lemurs-sky-script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/lemurs-sky-script.js"></script>
 </body>
 </html> 
